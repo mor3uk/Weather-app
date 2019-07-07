@@ -1,0 +1,63 @@
+body {
+    color: #333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 320%;
+    margin: 25px 0;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 125%;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #333;
+}
+
+p {
+    font-size: 130%;
+}
+
+.portret {
+    width: 250px;   
+}
+
+footer {
+    border-top: solid 1px grey;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+input[name="location"] {
+    border: 1px solid rgb(175, 171, 171);
+}
+
+input[name="location"], button {
+    padding: 8px;
+    font-size: 90%;
+    border-radius: 3px;
+}
+
+button {
+    border: 1px solid #888;
+    background-color: #888;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #333;
+}
